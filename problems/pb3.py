@@ -1,4 +1,25 @@
+
 def youngest_student(students):
+    # Get the maximum age from the values in the dictionary
+    min_age = min(students.values())
+    # Find the student(s) with the maximum age
+    youngest_student = [name for name, age in students.items() if age == min_age]
+    # Return the name of the first student in the list (assuming there is only one oldest student)
+    return youngest_student[0]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     pass # TODO:
 
 

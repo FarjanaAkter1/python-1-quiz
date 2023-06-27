@@ -1,5 +1,13 @@
 def max_values(nums):
-  pass #TODO:
+    value = sorted(range(len(nums)), key=lambda i: nums[i])[-2:]
+    
+    
+    return value
+
+pass #TODO:
+
+
+
 
 
 

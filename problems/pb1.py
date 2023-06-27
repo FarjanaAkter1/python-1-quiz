@@ -1,5 +1,13 @@
-def replace_spaces():
+def replace_spaces(sentence,replacement):
+
+    sentence2 = sentence.replace(' ', replacement)
+    return sentence2
     pass #TODO:
+
+
+
+
+
 
 
 
